@@ -4,17 +4,17 @@ import java.util.List;
 
 public class CarUI {
 
-    private Garage garage;
+    private CarService service;
 
     public List<Car> listAll() {
-        return garage.listAll();
+        return service.listAll();
     }
 
     public void insert(Car car) {
-        garage.save(car);
+        service.save(car);
     }
 
     public void delete(Car car) {
-        garage.delete(car);
+        service.delete(car);
     }
 }
