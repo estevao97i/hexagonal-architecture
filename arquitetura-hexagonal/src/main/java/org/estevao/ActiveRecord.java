@@ -13,4 +13,12 @@ public class ActiveRecord {
     public static<T extends ActiveRecord> List<T> listAll() {
         return Collections.emptyList();
     }
+
+    public static void insert() {
+
+    }
+
+    public static void delete() {
+
+    }
 }
