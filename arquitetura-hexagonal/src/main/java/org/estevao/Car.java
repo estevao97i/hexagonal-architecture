@@ -5,7 +5,7 @@ import org.jmolecules.ddd.annotation.Entity;
 import java.time.Year;
 
 @Entity
-public class Car extends ActiveRecord{
+public class Car {
 
     private String plate;
     private String model;
