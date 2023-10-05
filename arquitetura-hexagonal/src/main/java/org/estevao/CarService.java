@@ -27,4 +27,13 @@ public class CarService {
     public void delete(Car car) {
         garage.delete(car);
     }
+
+    public void vistoria(Car car) {
+    }
+
+    public void mudar(Car car) {
+    }
+
+    public void modificarCarro(Car car) {
+    }
 }
