@@ -1,4 +1,7 @@
-package org.estevao;
+package org.estevao.jsf;
+
+import org.estevao.Car;
+import org.estevao.CarService;
 
 import java.util.List;
 

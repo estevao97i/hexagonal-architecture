@@ -11,9 +11,12 @@ public class CarService {
 
     private final Detran detran;
 
-    public CarService(Garage garage, Detran detran) {
+    private final CarSell carSell;
+
+    public CarService(Garage garage, Detran detran, CarSell carSell) {
         this.garage = garage;
         this.detran = detran;
+        this.carSell = carSell;
     }
 
     public List<Car> listAll() {
@@ -32,6 +35,7 @@ public class CarService {
     }
 
     public void mudar(Car car) {
+        carSell.mudar(car);
     }
 
     public void modificarCarro(Car car) {
