@@ -1,4 +1,4 @@
-package org.estevao.jsf;
+package org.estevao.ui;
 
 import org.estevao.CarService;
 
