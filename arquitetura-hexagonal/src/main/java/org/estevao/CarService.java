@@ -34,8 +34,8 @@ public class CarService {
     public void vistoria(Car car) {
     }
 
-    public void mudar(Car car) {
-        carSell.mudar(car);
+    public void mudar(CarSell.CarRequest car) {
+        carSell.mudar(car); // quebra a regra de negocio para varias classe pra nao ficar um linguição aqui no service
     }
 
     public void modificarCarro(Car car) {

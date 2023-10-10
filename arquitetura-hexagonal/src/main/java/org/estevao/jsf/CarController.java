@@ -1,6 +1,7 @@
 package org.estevao.jsf;
 
 import org.estevao.Car;
+import org.estevao.CarSell;
 import org.estevao.CarService;
 
 import java.util.List;
@@ -30,7 +31,8 @@ public class CarController {
     }
 
     public void mudarDeDono(Car car) {
-        service.mudar(car);
+        CarSell.CarRequest carRequest = null;
+        service.mudar(carRequest);
     }
 
     public void modificarCarro(Car car) {
